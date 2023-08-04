@@ -1,0 +1,26 @@
+.patreon-search {
+    position: relative;
+    left: 24px;
+    top: -11px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.patreon-search input {
+    width: 100%;
+}
+
+.input-instructions {
+    margin: 0;
+    width: 100%;
+}
+
+.input-error {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+
+    margin: 0;
+    color: rgb(172, 0, 0);
+}

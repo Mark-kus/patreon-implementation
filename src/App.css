@@ -1,0 +1,41 @@
+.patreon-container {
+    position: relative;
+
+    width: 290px;
+    height: 90px;
+
+    border-radius: 9px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 1.4s ease;
+}
+
+.patreon-image {
+    transition: all 1s ease-out;
+
+    position: absolute;
+    left: 12px;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.opacity-100 {
+    opacity: 1;
+}
+
+.bg-orange {
+    background-color: #f96854;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+body {
+    background-color: rgb(51, 51, 51);
+}
